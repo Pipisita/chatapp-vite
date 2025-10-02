@@ -46,6 +46,7 @@ function EmptyPage({ contacts }) {
 
         {/* Botones redondos */}
         <div className="sidebar-footer">
+          <button title="Mi Perfil"><i className="fa-solid fa-circle-user"></i></button>
           <Link to="/new-contact">
             <button title="Nuevo Contacto">
               <i className="fa-solid fa-user-plus"></i>
